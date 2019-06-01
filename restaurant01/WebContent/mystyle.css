@@ -1,0 +1,12 @@
+@charset "BIG5";
+body{
+    background-color:#c0c0c0;
+}
+table{
+	width:100%;
+	text-align:center;
+	border: 1px solid black;
+}
+tr,td{
+	border: 1px solid black;
+}
