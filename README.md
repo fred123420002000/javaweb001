@@ -28,7 +28,19 @@
 * Struts相關的功能與檔案
 	* 控制各頁面之間的轉換並呼叫該頁面所需功能，將結果轉發給下個頁面
 	* 相關檔案與說明
-		* src/com/action資料夾下所有.java檔 控制頁面轉換
+		* src/com/action資料夾下所有.java檔
+			* Hibernate相關
+				* orderaction.java 資料庫溝通前將dao類別實體與要傳輸的資料提升為Session
+				* queryaction.java
+				* updateaction.java
+				* deleteaction.java
+			* Spring相關
+				* orderaction.java 不同情況下的餐費計算
+				* loginaction.java 宣告需要使用的類別
+			* 控制WebContent/WEB-INF/內的頁面轉換
+				* manageraction.java
+			* 以基本sqlAPI實作資料庫查詢功能
+				* managerqueryaction.java
 		* 專案下所有.jsp檔
 		* WebContent/WEB-INF/web.xml
 		* src/struts.xml 設定不同執行結果要轉換的頁面
