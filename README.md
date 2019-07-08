@@ -1,6 +1,74 @@
-# javaweb001
+# JavaWeb點餐系統作品功能演示
+首頁
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/001.png)
+新增訂單
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/002.png)
+確認訂單內容
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/003.png)
+成功新增訂單
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/004.png)
+查詢訂單
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/005.png)
+查詢結果
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/006.png)
+資料庫狀態
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/007.png)
+修改訂單
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/008.png)
+修改確認
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/009.png)
+修改成功
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/010.png)
+資料庫狀態(35號訂單修改)
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/011.png)
+刪除33號訂單
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/012.png)
+刪除確認
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/013.png)
+刪除成功
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/014.png)
+資料庫狀態
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/015.png)
+管理員登入頁面
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/016.png)
+登入成功
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/017.png)
+管理員訂單新增功能(數量不受限制)
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/018.png)
+新增成功
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/019.png)
+資料庫狀態
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/020.png)
+管理員查詢頁面
+以訂單編號35查詢
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/021.png)
+35號訂單查詢結果
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/022.png)
+以客戶名稱Gjun查詢
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/023.png)
+客戶名稱Gjun查詢結果
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/024.png)
+無會員資格訂單查詢結果
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/025.png)
+以訂單總價大於3000查詢
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/026.png)
+訂單總價大於3000查詢結果
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/027.png)
+以客戶名稱Bob，且總價大於3000查詢
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/028.png)
+客戶名稱Bob，且總價大於3000查詢結果
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/029.png)
+資料庫狀態
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/030.png)
+管理員訂單修改頁面
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/031.png)
+修改成功
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/032.png)
+資料庫狀態
+![image](https://github.com/fred123420002000/javaweb001/demopicture/blob/master/033.png)
 
-#一個模擬點餐過程的網頁APP
+restaurant01.rar檔案內容為此網站的程式碼
+# 一個模擬點餐過程的網頁APP
 使用了Hibernate Spring Struts框架的功能
 
 * Hibernate相關的功能與檔案
@@ -46,20 +114,3 @@
 		* src/struts.xml 設定不同執行結果要轉換的頁面
 * 未使用框架的檔案與功能說明
 	* src/com/dao/queryby.java 以基本sqlAPI實作WebContent/WEB-INF/manager/query.jsp頁面下的的資料庫多筆資料篩選查詢功能
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
