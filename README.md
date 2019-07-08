@@ -39,7 +39,7 @@
 ![image](https://github.com/fred123420002000/javaweb001/blob/master/demopicture/019.png)
 資料庫狀態
 ![image](https://github.com/fred123420002000/javaweb001/blob/master/demopicture/020.png)
-管理員查詢頁面
+管理員查詢頁面  
 以訂單編號35查詢
 ![image](https://github.com/fred123420002000/javaweb001/blob/master/demopicture/021.png)
 35號訂單查詢結果
